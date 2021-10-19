@@ -1,0 +1,135 @@
+  :root {
+    font-family: 'Poppins Regular';
+  }
+
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    background-image: url(./background1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 160px;
+  }
+  
+  /*NAVIGATION LIST ITEM*/
+  .navbar {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 10%;
+    text-decoration: none;
+    margin-bottom: 114px;
+    margin-right: 24px;
+  }
+  
+  .logo {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    margin-top: 35px;
+    left: 25px;
+  }
+
+  .hamburger-menu {
+    width: 20px;
+	height: 18px;
+	position: fixed;
+	top: 48px;
+	right: 50px;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+  }
+
+  /*line class*/
+  .line {
+	width: 100%;
+	height: 3px;
+	background-color: #6070ff;
+  }
+
+  /*CONTAINER*/
+  .intro {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 24px;
+  }
+  
+  h1 {
+    font-family: 'Poppins', sans-serif;
+    position: static;
+    width: 327px;
+    left: 24px;
+    top: 114px;
+    display: flex;
+    font-weight: 700px;
+    font-style: normal;
+    font-size: 40px;
+    margin-left: 30px;
+    color: #172b4d;
+  }
+  
+  p {
+    width: 327px;
+    height: 146px;
+    margin-bottom: 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 30px;
+    color: #344563;
+  }
+  
+  .contact {
+    padding: 0 55px;
+  }
+
+  .media {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    width: 50%;
+    
+    padding-left: 40px;
+    margin-right: 10px;
+    margin-top: 12px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #6070ff;
+    height: 20px;
+    width: 76px;
+    left: 12px;
+    top: 10px;
+    font-weight: bolder;
+  }
+  
+
+  
+  .connect {
+    color: #7f8cff;
+    font-weight: 500px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .linkedin {
+      color: #505f79;;
+      opacity: 60%;
+  }
