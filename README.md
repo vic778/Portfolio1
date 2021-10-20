@@ -1,6 +1,5 @@
 # My portfolio
 This project was created for the creation of my portfolio.
-![GitHub Logo](./PortfolioScreenshot.png)
 
 ## LANGUAGES USED
 - HTML
