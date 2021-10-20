@@ -73,9 +73,8 @@ h1 {
   font-weight: 700;
   font-style: normal;
   font-size: 40px;
-  margin-left: 30px; 
-  color:#172b4d;
-
+  margin-left: 30px;
+  color: #172b4d;
 }
 
 p {
@@ -87,13 +86,12 @@ p {
   font-size: 16px;
   line-height: 24px;
   padding: 30px;
-  
-  color:#344563; 
-  font-family: 'Poppins', sans-serif; 
-} 
+  color: #344563;
+  font-family: 'Poppins', sans-serif;
+}
 
-.contact { 
-  padding: 0 55px; 
+.contact {
+  padding: 0 55px;
 }
 
 .media {
@@ -102,7 +100,7 @@ p {
   justify-content: space-around;
   width: 50%;
   padding-left: 40px;
-  margin-right: 10px; 
+  margin-right: 10px;
   margin-top: 12px;
 }
 
@@ -112,8 +110,8 @@ a {
   height: 20px;
   width: 76px;
   left: 12px;
-  top: 10px; 
-  font-weight: bolder; 
+  top: 10px;
+  font-weight: bolder;
 }
 
 .connect {
@@ -121,12 +119,11 @@ a {
   font-weight: 500;
   font-style: normal;
   font-size: 16px;
-  line-height: 24px; 
-  font-family: 'Poppins', sans-serif; 
+  line-height: 24px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .linkedin {
   color: #505f79;
-  opacity: 60%; 
+  opacity: 60%;
 }
-
