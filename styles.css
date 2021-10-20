@@ -6,7 +6,7 @@
 }
 
 .container {
-  background-image: url(./background1.png);
+  background-image: url(./background1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 160px;
@@ -19,6 +19,7 @@
   text-align: center;
   justify-content: space-between;
   padding: 10%;
+  width: 100%;
   text-decoration: none;
   margin-bottom: 114px;
   margin-right: 24px;
@@ -123,7 +124,3 @@ a {
   font-family: 'Poppins', sans-serif;
 }
 
-.linkedin {
-  color: #505f79;
-  opacity: 60%;
-}
