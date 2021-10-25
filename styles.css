@@ -438,7 +438,7 @@ input {
 /* CARD 5 */
 .card5 {
   width: 100%;
-  height: 1263px;
+  height: 1100px;
   font-family: 'Poppins', sans-serif;
   background-color: #fff;
   border-top-right-radius: 100px;
@@ -565,4 +565,122 @@ input {
   border: 1px solid #dfe1e6;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+/* FOOTER */
+footer {
+  background-image: url(./Contact\ me.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+}
+
+.title3 {
+  margin-top: 100px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+}
+
+.header-content2 {
+  margin-top: 20px;
+  width: 327px;
+  left: 24px;
+  top: 4802px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  padding-left: 80px;
+}
+
+.txt {
+  font-family: 'Poppins', sans-serif;
+  width: 327px;
+  margin-top: 50px;
+  padding-left: 20px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+  height: 48px;
+  margin-left: 70px;
+  color: #172b4d;
+}
+
+.mail {
+  font-family: 'Poppins', sans-serif;
+  width: 327px;
+  margin-top: 20px;
+  padding-left: 20px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+  height: 48px;
+  margin-left: 70px;
+  color: #172b4d;
+}
+
+.comments {
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  width: 315px;
+  height: 170px;
+  padding: 20px;
+  padding-left: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-left: 67px;
+  color: #172b4d;
+}
+
+.btn3 {
+  border: 1px solid #396df2;
+  position: static;
+  width: 140px;
+  height: 48px;
+  margin-left: 67px;
+  margin-top: 25px;
+  color: #396df2;
+  left: 12px;
+  top: 12px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.btn3:hover {
+  background-color: #6070ff;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+}
+
+.btn3:active {
+  background-color: #2230d2;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.btn3:disabled {
+  background-color: #e5e5e5;
+  color: #5e6c84;
+}
+
+.divider {
+  margin-top: 50px;
+  width: 134px;
+  height: 5px;
+  bottom: 8px;
+  background: #0d151e;
+  border-radius: 10px;
+  margin-left: 35%;
 }
