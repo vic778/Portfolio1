@@ -459,7 +459,7 @@ button:disabled {
   border-radius: 8px;
 }
 
-/* Skills */
+/* -btns */
 .skills-container {
   display: flex;
   flex-direction: column;
@@ -500,6 +500,7 @@ button:disabled {
 }
 
 .skill-btn {
+  list-style-type: none;
   display: flex;
   flex-direction: row;
   align-items: center;
