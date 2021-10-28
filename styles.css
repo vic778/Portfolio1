@@ -867,6 +867,11 @@ button:disabled {
     height: 120px;
   }
 
+  .form-title:hover {
+    transition: ease-in-out 1s;
+    transform: translate(10px);
+  }
+
   .contact-form {
     width: 100%;
     height: 846px;
@@ -887,7 +892,27 @@ button:disabled {
     border-radius: 2px;
   }
 
+  .form-description:hover {
+    transition: ease-in-out 1s;
+    transform: translate(10px);
+  }
+
+  .txt:hover {
+    transition: ease-in-out 1s;
+    transform: translate(10px);
+  }
+
+  .mail:hover {
+    transition: ease-in-out 1s;
+    transform: translate(10px);
+  }
+
   .textarea-container {
     width: 447px;
+  }
+
+  .textarea-container:hover {
+    transition: ease-in-out 1s;
+    transform: translate(10px);
   }
 }
