@@ -631,9 +631,9 @@ button:disabled {
   color: #172b4d;
 }
 
-.textarea-container {
+.comment {
   font-family: "Poppins", sans-serif;
-  width: 317px;
+  width: 450px;
   height: 170px;
   padding: 15px 16px;
   background: #fff;
@@ -898,11 +898,24 @@ button:disabled {
   }
 
   .txt:hover {
+    color: #fff;
+    background-color: #4652c2;
     transition: ease-in-out 1s;
     transform: translate(10px);
   }
 
+  .mail-label {
+    font-size: 17px;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #fff;
+  }
+
   .mail:hover {
+    color: #fff;
+    background-color: #4652c2;
     transition: ease-in-out 1s;
     transform: translate(10px);
   }
@@ -911,7 +924,22 @@ button:disabled {
     width: 447px;
   }
 
-  .textarea-container:hover {
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  .comment:hover {
+    color: #fff;
+    background-color: #4652c2;
+    border: 1px solid #cfd8dc;
     transition: ease-in-out 1s;
     transform: translate(10px);
   }
