@@ -8,5 +8,6 @@
   "extends": ["development"],
   "formatters": ["stylish"],
   "hints": [
+
   ]
 }
