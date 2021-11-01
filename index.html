@@ -20,6 +20,20 @@
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
     />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-DG2D400NRN"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-DG2D400NRN");
+    </script>
     <link rel="stylesheet" href="styles.css" />
     <title>Edward's Portfolio</title>
   </head>
@@ -32,26 +46,25 @@
       <nav class="menu">
         <!-- Desktop Version Menu -->
         <ul class="menu-items">
-          <li class="menu-item portfolio">
-            <li><a href="#">Portfolio</a></li>
-          
-          <li class="menu-item about">
-            <li><a href="#">About</a></li>
-          
-          <li class="menu-item contact">
-            <li><a href="#">Contact</a></li>
-          
+          <li class="menu-item portfolio"></li>
+          <li><a href="#">Portfolio</a></li>
+
+          <li class="menu-item about"></li>
+          <li><a href="#">About</a></li>
+
+          <li class="menu-item contact"></li>
+          <li><a href="#">Contact</a></li>
         </ul>
 
         <!-- Mobile Version Menu -->
         <div class="menu-btn active">
           <ul>
-          <li class="hamburger-menu">
-            <div class="line line-1"></div>
-            <div class="line line-2"></div>
-            <div class="line line-3"></div>
-          </li>
-        </ul>
+            <li class="hamburger-menu">
+              <div class="line line-1"></div>
+              <div class="line line-2"></div>
+              <div class="line line-3"></div>
+            </li>
+          </ul>
         </div>
       </nav>
     </header>
@@ -302,53 +315,76 @@
 
           <!-- Skills -->
           <div>
-          <ul class="skills-container">
-            <li class="languages skill-item">
-              <div class="skill-list-tab">
-                <p class="skill-title">Languages</p>
-                <ul class="skill-btn">
-                  <li>
-                  <li><img src="./arrow-down.png" alt="" class="arrowdown" width="18" height="18"></li>
-                  
+            <ul class="skills-container">
+              <li class="languages skill-item">
+                <div class="skill-list-tab">
+                  <p class="skill-title">Languages</p>
+                  <ul class="skill-btn">
+                    <li></li>
+                    <li>
+                      <img
+                        src="./arrow-down.png"
+                        alt=""
+                        class="arrowdown"
+                        width="18"
+                        height="18"
+                      />
+                    </li>
+                  </ul>
+                </div>
+                <ul class="skill-list">
+                  <li class="list-item">
+                    <img src="./Ellipse1.jpg" alt="" class="language-icon" />
+                    <p class="language-text">JavaScript</p>
+                  </li>
+                  <li class="list-item">
+                    <img src="./Ellipse2.jpg" alt="" class="language-icon" />
+                    <p class="language-text">HTML</p>
+                  </li>
+                  <li class="list-item">
+                    <img src="./Ellipse3.jpg" alt="" class="language-icon" />
+                    <p class="language-text">CSS</p>
+                  </li>
                 </ul>
-              </div>
-              <ul class="skill-list">
-                <li class="list-item">
-                  <img src="./Ellipse1.jpg" alt="" class="language-icon" />
-                  <p class="language-text">JavaScript</p>
-                </li>
-                <li class="list-item">
-                  <img src="./Ellipse2.jpg" alt="" class="language-icon" />
-                  <p class="language-text">HTML</p>
-                </li>
-                <li class="list-item">
-                  <img src="./Ellipse3.jpg" alt="" class="language-icon" />
-                  <p class="language-text">CSS</p>
-                </li>
-              </ul>
-            </li>
-            <li class="frameworks skill-item">
-              <div class="skill-list-tab">
-                <p class="skill-title">Frameworks</p>
-                <ul class="skill-btn" >
-                  <li><img src="./right-arrow.png" class="arrowright" alt="" width="18" height="18"></li>
-                </ul>
-              </div>
-            </li>
+              </li>
+              <li class="frameworks skill-item">
+                <div class="skill-list-tab">
+                  <p class="skill-title">Frameworks</p>
+                  <ul class="skill-btn">
+                    <li>
+                      <img
+                        src="./right-arrow.png"
+                        class="arrowright"
+                        alt=""
+                        width="18"
+                        height="18"
+                      />
+                    </li>
+                  </ul>
+                </div>
+              </li>
 
-            <li class="seperator"></li>
+              <li class="seperator"></li>
 
-            <li class="skills skill-item">
-              <div class="skill-list-tab">
-                <p class="skill-title">Skills</p>
-                <ul class="skill-btn">
-                  <li><img src="./right-arrow.png" alt="" class="arrowright2" width="18" height="18"></li>
-                </ul>
-              </div>
-            </li>
-            <li class="seperator"></li>
-          </ul>
-        </div>
+              <li class="skills skill-item">
+                <div class="skill-list-tab">
+                  <p class="skill-title">Skills</p>
+                  <ul class="skill-btn">
+                    <li>
+                      <img
+                        src="./right-arrow.png"
+                        alt=""
+                        class="arrowright2"
+                        width="18"
+                        height="18"
+                      />
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="seperator"></li>
+            </ul>
+          </div>
         </div>
       </section>
 
@@ -369,35 +405,35 @@
           </div>
 
           <div class="form-group-actions">
-              <label for="name">
-            <input
-              type="text"
-              placeholder="Edward Yara"
-              class="txt"
-              name="name"
-              ID="name"
-              maxlength="30"
-              required
-            />
-           </label>
-           <label for="email">
-            <input
-              type="email"
-              placeholder="oluyaratosin123@gmail.com"
-              class="mail"
-              name="email"
-              id="email"
-              required
-            />
+            <label for="name">
+              <input
+                type="text"
+                placeholder="Edward Yara"
+                class="txt"
+                name="name"
+                id="name"
+                maxlength="30"
+                required
+              />
+            </label>
+            <label for="email">
+              <input
+                type="email"
+                placeholder="oluyaratosin123@gmail.com"
+                class="mail"
+                name="email"
+                id="email"
+                required
+              />
             </label>
             <div class="textarea-container">
-                <label for="comment"></label>
+              <label for="comment"></label>
               <textarea
                 name="message"
                 placeholder="Write your message here"
                 cols="30"
                 rows="10"
-                ID="comment"
+                id="comment"
                 maxlength="500"
                 required
               ></textarea>
