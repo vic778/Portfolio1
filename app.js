@@ -121,10 +121,10 @@ document.addEventListener('DOMContentLoaded', () => {
         'A daily selection of privately personalized reads; no accounts orsign-ups required.',
       languages: ['html', 'css', 'javascript'],
       button_project: 'See Project',
-      id: "project1",
+      id:' project1' ,
     },
     {
-      img: { url: './Images/snapshot-portfolio2.png", alt: "project'},
+      img: { url: './Images/snapshot-portfolio2.png", alt: "project' },
       title: 'Multi-Post Stories',
       prj_info: {
         title: 'FACEBOOK',
@@ -134,13 +134,13 @@ document.addEventListener('DOMContentLoaded', () => {
       },
       text_content:
         'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-      languages: ["html", "css", "javascript"],
+      languages: [' html' , 'css' , 'javascript' ],
       button_project: 'See Project',
       id: 'project1',
     },
     {
       img: { url: './Images/snapshot-portfolio3.png", alt: "project' },
-      title: "Facebook 360",
+      title: 'Facebook 360',
       prj_info: {
         title: 'FACEBOOK',
         class: 'fa-circle',
@@ -148,8 +148,8 @@ document.addEventListener('DOMContentLoaded', () => {
         year: 2015,
       },
       text_content:
-      ' A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer your car.',      
-      languages: ['html', 'css', 'javascript'],
+      'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer your car.',      
+      languages: ['html','css','javascript'],
       button_project: 'See Project',
       id: 'project3',
     },
@@ -199,7 +199,7 @@ document.addEventListener('DOMContentLoaded', () => {
     liCardInfoTitle.classList.add('project__info--title');
     liCardInfoTitle.textContent = `${projectInfoCard[i].prj_info.title}`;
     ulCardInfo.appendChild(liCardInfoTitle);
-    const liCardInfoDotCont = document.createElement("li");
+    const liCardInfoDotCont = document.createElement('li');
     liCardInfoDotCont.classList.add('project__info--dot');
     ulCardInfo.appendChild(liCardInfoDotCont);
     const iconDotCard1 = document.createElement('i');
@@ -274,127 +274,127 @@ document.addEventListener('DOMContentLoaded', () => {
         job: 'Back End Dev',
         year: 2015,
       },
-      url_img: "./Images/Snapshoot-Portfolio1.png",
+      url_img:'./Images/Snapshoot-Portfolio1.png',
       text_content:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-      languages: ["html", "css", "javascript"],
+      languages: ['html','css','javascript'],
       button_live: {
-        url: "#",
-        icon_class: "fa-life-ring",
-        btn_live: "See live",
+        url: '#',
+        icon_class:'fa-life-ring',
+        btn_live:'See live',
       },
       button_source: {
         url: "#",
-        icon_class: "fa-github-square",
-        btn_source: "See Source",
+        icon_class:'fa-github-square',
+        btn_source:'See Source',
       },
     },
     project2: {
-      title: "Facebook 360",
+      title: 'Facebook 360',
       prj_info: {
-        title: "FACEBOOK",
-        class: "fa-circle",
-        job: "Full Stack Dev",
+        title:'FACEBOOK',
+        class:'fa-circle',
+        job:'Full Stack Dev',
         year: 2015,
       },
-      url_img: "./Images/snapshot-portfolio3.png",
+      url_img:'./Images/snapshot-portfolio3.png',
       text_content:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-      languages: ["html", "css", "javascript"],
+        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+      languages: ['html','css','javascript'],
       button_live: {
-        url: "#",
-        icon_class: "fa-life-ring",
-        btn_live: "See live",
+        url: '#',
+        icon_class:'fa-life-ring',
+        btn_live:'See live',
       },
       button_source: {
-        url: "#",
-        icon_class: "fa-github-square",
-        btn_source: "See Source",
+        url:'#',
+        icon_class:'fa-github-square',
+        btn_source:'See Source',
       },
     },
 
     project3: {
-      title: "Facebook 360",
+      title: 'Facebook 360',
       prj_info: {
-        title: "FACEBOOK",
-        class: "fa-circle",
-        job: "Full Stack Dev",
+        title:'FACEBOOK',
+        class:'fa-circle',
+        job:'Full Stack Dev',
         year: 2015,
       },
-      url_img: "./Images/snapshot-portfolio3.png",
+      url_img:'./Images/snapshot-portfolio3.png',
       text_content:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-      languages: ["html", "css", "javascript"],
+        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+      languages: ['html','css','javascript'],
       button_live: {
-        url: "#",
-        icon_class: "fa-life-ring",
-        btn_live: "See live",
+        url: '#',
+        icon_class:'fa-life-ring',
+        btn_live:'See live',
       },
       button_source: {
-        url: "#",
-        icon_class: "fa-github-square",
-        btn_source: "See Source",
+        url:'#',
+        icon_class:'fa-github-square',
+        btn_source:'See Source',
       },
     },
 
     project4: {
-      title: "Uber Navigation",
+      title: 'Uber Navigation',
       prj_info: {
-        title: "Uber",
-        class: "fa-circle",
-        job: "Lead Developer",
+        title:'Uber',
+        class:'fa-circle',
+        job:'Lead Developer',
         year: 2018,
       },
-      url_img: "./Images/snapshot-portfolio4.png",
+      url_img:'./Images/snapshot-portfolio4.png',
       text_content:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-      languages: ["html", "css", "javascript"],
+        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+      languages: ['html','css','javascript'],
       button_live: {
-        url: "#",
-        icon_class: "fa-life-ring",
-        btn_live: "See live",
+        url: '#',
+        icon_class:'fa-life-ring',
+        btn_live:'See live',
       },
       button_source: {
-        url: "#",
-        icon_class: "fa-github-square",
-        btn_source: "See Source",
+        url:'#',
+        icon_class:'fa-github-square',
+        btn_source:'See Source',
       },
     },
   };
 
   // pop up section
   const projectButton = document.querySelectorAll(
-    "#project1, #project2, #project3, #project4"
+    '#project1, #project2, #project3, #project4'
   );
-  const headingTitle = document.querySelector(".pop-heading-det");
-  const titleInfo = document.querySelector(".title-info");
-  const contInfoDot = document.querySelector(".icon-dot-cont i");
-  const contInfoDot2 = document.querySelector(".icon-dot-cont2 i");
-  const jobInfo = document.querySelector(".job-info");
-  const yearInfo = document.querySelector(".year-info");
-  const imgPop = document.querySelector(".pop-img-proj");
-  const prjText = document.querySelector(".pop-text");
-  const langBtn = document.querySelectorAll(".lang-text");
-  const btnLiveText = document.querySelector(".live-btn-text");
-  const btnLiveIcon = document.querySelector(".live-btn-text + .fas");
-  const btnSourceText = document.querySelector(".source-btn-text");
-  const btnSourceIcon = document.querySelector(".source-btn-text + .fab");
+  const headingTitle = document.querySelector('.pop-heading-det');
+  const titleInfo = document.querySelector('.title-info');
+  const contInfoDot = document.querySelector('.icon-dot-cont i');
+  const contInfoDot2 = document.querySelector('.icon-dot-cont2 i');
+  const jobInfo = document.querySelector('.job-info');
+  const yearInfo = document.querySelector('.year-info');
+  const imgPop = document.querySelector('.pop-img-proj');
+  const prjText = document.querySelector('.pop-text');
+  const langBtn = document.querySelectorAll('.lang-text');
+  const btnLiveText = document.querySelector('.live-btn-text');
+  const btnLiveIcon = document.querySelector('.live-btn-text + .fas');
+  const btnSourceText = document.querySelector('.source-btn-text');
+  const btnSourceIcon = document.querySelector('.source-btn-text + .fab');
 
   // card section
 
   projectButton.forEach((btn) => {
     function popDetail() {
-      modal.style.display = "block";
-      contPrjctDet.style.display = "block";
+      modal.style.display = 'block';
+      contPrjctDet.style.display ='block';
       headingTitle.textContent = projectInfo[btn.id].title;
       titleInfo.textContent = projectInfo[btn.id].prj_info.title;
       contInfoDot.classList.add(`${projectInfo[btn.id].prj_info.class}`);
       jobInfo.textContent = projectInfo[btn.id].prj_info.job;
       contInfoDot2.classList.add(`${projectInfo[btn.id].prj_info.class}`);
       yearInfo.textContent = projectInfo[btn.id].prj_info.year;
-      imgPop.setAttribute("src", `${projectInfo[btn.id].url_img}`);
+      imgPop.setAttribute('src', `${projectInfo[btn.id].url_img}`);
       prjText.textContent = projectInfo[btn.id].text_content;
-      close.classList.add("fa-times");
+      close.classList.add('fa-times');
       for (let i = 0; i < projectInfo[btn.id].languages.length; i += 1) {
         langBtn[i].textContent = projectInfo[btn.id].languages[i];
       }
@@ -407,29 +407,29 @@ document.addEventListener('DOMContentLoaded', () => {
         `${projectInfo[btn.id].button_source.icon_class}`
       );
     }
-    btn.addEventListener("click", popDetail);
+    btn.addEventListener('click', popDetail);
   });
   function closeModal() {
-    modal.style.display = "none";
-    contPrjctDet.style.display = "none";
+    modal.style.display = 'none';
+    contPrjctDet.style.display ='none';
   }
-  close.addEventListener("click", closeModal);
+  close.addEventListener('click', closeModal);
 });
 
-const navMobileClose = document.querySelector(".icon-cont");
-const mobileMenu = document.querySelector(".mobile-menu");
-const humbMenu = document.querySelector("#open");
-const section = document.querySelectorAll(".link-mobile-menu");
+const navMobileClose = document.querySelector('.icon-cont');
+const mobileMenu = document.querySelector('.mobile-menu');
+const humbMenu = document.querySelector('#open');
+const section = document.querySelectorAll('.link-mobile-menu');
 
 function closeMenu() {
-  mobileMenu.style.display = "none";
+  mobileMenu.style.display = 'none';
 }
 
-navMobileClose.addEventListener("click", closeMenu);
+navMobileClose.addEventListener('click', closeMenu);
 function OpenMenu() {
-  mobileMenu.style.display = "block";
+  mobileMenu.style.display = 'block';
 }
-humbMenu.addEventListener("click", OpenMenu);
+humbMenu.addEventListener('click', OpenMenu);
 section.forEach((item) => {
-  item.addEventListener("click", closeMenu);
+  item.addEventListener('click', closeMenu);
 });
