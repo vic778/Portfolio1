@@ -10,7 +10,7 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages:HTML,CSS
+- Major languages:HTML,CSS,JavaScript
 - Frameworks:no frame works used
 - Technologies used:webhint,stylehint and lighthouse
 
