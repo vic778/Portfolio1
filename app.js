@@ -65,12 +65,12 @@ document.addEventListener("DOMContentLoaded", () => {
   iconButtonSource.classList.add("fab");
   span1.classList.add("live-btn-text");
   span2.classList.add("source-btn-text");
-  contListLang1.classList.add("list-lang-item");
-  contListLang2.classList.add("list-lang-item");
-  contListLang3.classList.add("list-lang-item");
-  close.classList.add("fas");
-  close.classList.add("close-pop-modal");
-  close.classList.add("fa-lg");
+  contListLang1.classList.add('list-lang-item');
+  contListLang2.classList.add('list-lang-item');
+  contListLang3.classList.add('list-lang-item');
+  close.classList.add('fas');
+  close.classList.add('close-pop-modal');
+  close.classList.add('fa-lg');
 
   // pop up part
   body.appendChild(modal);
@@ -109,169 +109,169 @@ document.addEventListener("DOMContentLoaded", () => {
   // card section part
   const projectInfoCard = [
     {
-      img: { url: "./Images/Snapshoot-Portfolio1.png", alt: "project" },
-      title: "Tonic",
+      img: { url: './Images/Snapshoot-Portfolio1.png", alt: "project' },
+      title: 'Tonic',
       prj_info: {
-        title: "CANOPY",
-        class: "fa-circle",
-        job: "Back End Dev",
+        title: 'CANOPY',
+        class: 'fa-circle',
+        job: 'Back End Dev',
         year: 2015,
       },
       text_content:
-        " A daily selection of privately personalized reads; no accounts orsign-ups required.",
-      languages: ["html", "css", "javascript"],
-      button_project: "See Project",
+        'A daily selection of privately personalized reads; no accounts orsign-ups required.',
+      languages: ['html', 'css', 'javascript'],
+      button_project: 'See Project',
       id: "project1",
     },
     {
-      img: { url: "./Images/snapshot-portfolio2.png", alt: "project" },
-      title: "Multi-Post Stories",
+      img: { url: './Images/snapshot-portfolio2.png", alt: "project'},
+      title: 'Multi-Post Stories',
       prj_info: {
-        title: "FACEBOOK",
-        class: "fa-circle",
-        job: "Full Stack Dev",
+        title: 'FACEBOOK',
+        class: 'fa-circle',
+        job: 'Full Stack Dev',
         year: 2015,
       },
       text_content:
-        " Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.",
+        'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
       languages: ["html", "css", "javascript"],
-      button_project: "See Project",
-      id: "project1",
+      button_project: 'See Project',
+      id: 'project1',
     },
     {
-      img: { url: "./Images/snapshot-portfolio3.png", alt: "project" },
+      img: { url: './Images/snapshot-portfolio3.png", alt: "project' },
       title: "Facebook 360",
       prj_info: {
-        title: "FACEBOOK",
-        class: "fa-circle",
-        job: "Full Stack Dev",
+        title: 'FACEBOOK',
+        class: 'fa-circle',
+        job: 'Full Stack Dev',
         year: 2015,
       },
       text_content:
-        " Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
-      languages: ["html", "css", "javascript"],
-      button_project: "See Project",
-      id: "project3",
+      ' A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer your car.',      
+      languages: ['html', 'css', 'javascript'],
+      button_project: 'See Project',
+      id: 'project3',
     },
     {
-      img: { url: "./Images/snapshot-portfolio4.png", alt: "project" },
-      title: "Uber Navigation",
+      img: { url: './Images/snapshot-portfolio4.png", alt: "project' },
+      title: 'Uber Navigation',
       prj_info: {
-        title: "Uber",
-        class: "fa-circle",
-        job: "Lead Developer",
+        title: 'Uber',
+        class: 'fa-circle',
+        job: 'Lead Developer',
         year: 2018,
       },
       text_content:
-        " A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
-      languages: ["html", "css", "javascript"],
-      button_project: "See Project",
-      id: "project4",
+        ' A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+      languages: ['html', 'css', 'javascript'],
+      button_project: 'See Project',
+      id: 'project4',
     },
   ];
-  const cardCont = document.querySelector(".container__card");
+  const cardCont = document.querySelector('.container__card');
   for (let i = 0; i < projectInfoCard.length; i += 1) {
-    const card = document.createElement("div");
-    card.classList.add("card");
+    const card = document.createElement('div');
+    card.classList.add('card');
     cardCont.appendChild(card);
-    const wrapperCard = document.createElement("div");
-    wrapperCard.classList.add("card__img--cont");
+    const wrapperCard = document.createElement('div');
+    wrapperCard.classList.add('card__img--cont');
     card.appendChild(wrapperCard);
-    const figureCard = document.createElement("figure");
-    figureCard.classList.add("img-wrapper");
+    const figureCard = document.createElement('figure');
+    figureCard.classList.add('img-wrapper');
     wrapperCard.appendChild(figureCard);
-    const imgCard = document.createElement("img");
-    imgCard.classList.add("img__card");
+    const imgCard = document.createElement('img');
+    imgCard.classList.add('img__card');
     figureCard.appendChild(imgCard);
-    imgCard.setAttribute("src", `${projectInfoCard[i].img.url}`);
-    imgCard.setAttribute("alt", `${projectInfoCard[i].img.alt}`);
-    const projInfoCardWrap = document.createElement("div");
-    projInfoCardWrap.classList.add("prjct-info-wrapper");
+    imgCard.setAttribute('src', `${projectInfoCard[i].img.url}`);
+    imgCard.setAttribute('alt', `${projectInfoCard[i].img.alt}`);
+    const projInfoCardWrap = document.createElement('div');
+    projInfoCardWrap.classList.add('prjct-info-wrapper');
     wrapperCard.appendChild(projInfoCardWrap);
-    const prjTitleCard = document.createElement("h2");
-    prjTitleCard.classList.add("desc__projeect");
+    const prjTitleCard = document.createElement('h2');
+    prjTitleCard.classList.add('desc__projeect');
     prjTitleCard.textContent = `${projectInfoCard[i].title}`;
     projInfoCardWrap.appendChild(prjTitleCard);
-    const ulCardInfo = document.createElement("ul");
-    ulCardInfo.classList.add("project__info--cont");
+    const ulCardInfo = document.createElement('ul');
+    ulCardInfo.classList.add('project__info--cont');
     projInfoCardWrap.appendChild(ulCardInfo);
-    const liCardInfoTitle = document.createElement("li");
-    liCardInfoTitle.classList.add("project__info--title");
+    const liCardInfoTitle = document.createElement('li');
+    liCardInfoTitle.classList.add('project__info--title');
     liCardInfoTitle.textContent = `${projectInfoCard[i].prj_info.title}`;
     ulCardInfo.appendChild(liCardInfoTitle);
     const liCardInfoDotCont = document.createElement("li");
-    liCardInfoDotCont.classList.add("project__info--dot");
+    liCardInfoDotCont.classList.add('project__info--dot');
     ulCardInfo.appendChild(liCardInfoDotCont);
-    const iconDotCard1 = document.createElement("i");
-    iconDotCard1.classList.add("fas");
-    iconDotCard1.classList.add("color__circle");
+    const iconDotCard1 = document.createElement('i');
+    iconDotCard1.classList.add('fas');
+    iconDotCard1.classList.add('color__circle');
     iconDotCard1.classList.add(`${projectInfoCard[i].prj_info.class}`);
     liCardInfoDotCont.appendChild(iconDotCard1);
-    const jobInfoCard = document.createElement("li");
-    jobInfoCard.classList.add("project__info--author");
+    const jobInfoCard = document.createElement('li');
+    jobInfoCard.classList.add('project__info--author');
     jobInfoCard.textContent = `${projectInfoCard[i].prj_info.job}`;
     ulCardInfo.appendChild(jobInfoCard);
-    const liCardInfoDotCont1 = document.createElement("li");
-    liCardInfoDotCont1.classList.add("project__info--dot");
+    const liCardInfoDotCont1 = document.createElement('li');
+    liCardInfoDotCont1.classList.add('project__info--dot');
     ulCardInfo.appendChild(liCardInfoDotCont1);
-    const iconDotCard2 = document.createElement("i");
-    iconDotCard2.classList.add("fas");
-    iconDotCard2.classList.add("color__circle");
+    const iconDotCard2 = document.createElement('i');
+    iconDotCard2.classList.add('fas');
+    iconDotCard2.classList.add('olor__circle');
     iconDotCard2.classList.add(`${projectInfoCard[i].prj_info.class}`);
     liCardInfoDotCont1.appendChild(iconDotCard2);
-    const liCardInfoYear = document.createElement("li");
-    liCardInfoYear.classList.add("project__info--date");
+    const liCardInfoYear = document.createElement('li');
+    liCardInfoYear.classList.add('project__info--date');
     liCardInfoYear.textContent = `${projectInfoCard[i].prj_info.year}`;
     ulCardInfo.appendChild(liCardInfoYear);
-    const ulCradLangCont = document.createElement("ul");
-    ulCradLangCont.classList.add("list__lng--btn");
+    const ulCradLangCont = document.createElement('ul');
+    ulCradLangCont.classList.add('list__lng--btn');
     projInfoCardWrap.appendChild(ulCradLangCont);
-    const liCardLangCont = document.createElement("li");
-    liCardLangCont.classList.add("lng__btn--cont");
+    const liCardLangCont = document.createElement('li');
+    liCardLangCont.classList.add('lng__btn--cont');
     ulCradLangCont.appendChild(liCardLangCont);
-    const buttonLangText = document.createElement("button");
-    buttonLangText.setAttribute("type", "button");
-    buttonLangText.classList.add("lng__btn");
+    const buttonLangText = document.createElement('button');
+    buttonLangText.setAttribute('type', 'button');
+    buttonLangText.classList.add('lng__btn');
     liCardLangCont.appendChild(buttonLangText);
     buttonLangText.textContent = `${projectInfoCard[i].languages[0]}`;
 
-    const liCardLangCont1 = document.createElement("li");
-    liCardLangCont1.classList.add("lng__btn--cont");
+    const liCardLangCont1 = document.createElement('li');
+    liCardLangCont1.classList.add('lng__btn--cont');
     ulCradLangCont.appendChild(liCardLangCont1);
-    const buttonLangText1 = document.createElement("button");
-    buttonLangText1.setAttribute("type", "button");
-    buttonLangText1.classList.add("lng__btn");
+    const buttonLangText1 = document.createElement('button');
+    buttonLangText1.setAttribute('type", "button');
+    buttonLangText1.classList.add('lng__btn');
     liCardLangCont1.appendChild(buttonLangText1);
     buttonLangText1.textContent = `${projectInfoCard[i].languages[1]}`;
 
-    const liCardLangCont2 = document.createElement("li");
-    liCardLangCont2.classList.add("lng__btn--cont");
+    const liCardLangCont2 = document.createElement('li');
+    liCardLangCont2.classList.add('lng__btn--cont');
     ulCradLangCont.appendChild(liCardLangCont2);
-    const buttonLangText2 = document.createElement("button");
-    buttonLangText2.setAttribute("type", "button");
-    buttonLangText2.classList.add("lng__btn");
+    const buttonLangText2 = document.createElement('button');
+    buttonLangText2.setAttribute('type', 'button');
+    buttonLangText2.classList.add('lng__btn');
     liCardLangCont2.appendChild(buttonLangText2);
     buttonLangText2.textContent = `${projectInfoCard[i].languages[2]}`;
 
-    const textParCard = document.createElement("p");
-    textParCard.classList.add("project__desc--text");
+    const textParCard = document.createElement('p');
+    textParCard.classList.add('project__desc--text');
     projInfoCardWrap.appendChild(textParCard);
     textParCard.textContent = `${projectInfoCard[i].text_content}`;
 
-    const buttonProjLink = document.createElement("button");
-    buttonProjLink.setAttribute("type", "button");
-    buttonProjLink.setAttribute("id", `${projectInfoCard[i].id}`);
-    buttonProjLink.classList.add("btn-action");
+    const buttonProjLink = document.createElement('button');
+    buttonProjLink.setAttribute('type', 'button');
+    buttonProjLink.setAttribute('id', `${projectInfoCard[i].id}`);
+    buttonProjLink.classList.add('btn-action');
     projInfoCardWrap.appendChild(buttonProjLink);
     buttonProjLink.textContent = `${projectInfoCard[i].button_project}`;
   }
   const projectInfo = {
     project1: {
-      title: "Tonic",
+      title: 'Tonic',
       prj_info: {
-        title: "CANOPY",
-        class: "fa-circle",
-        job: "Back End Dev",
+        title: 'CANOPY',
+        class: 'fa-circle',
+        job: 'Back End Dev',
         year: 2015,
       },
       url_img: "./Images/Snapshoot-Portfolio1.png",
