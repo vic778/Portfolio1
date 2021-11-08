@@ -1,8 +1,8 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener('DOMContentLoaded', () => {
   const modal = document.createElement('div');
   const body = document.querySelector('body');
   const contPrjctDet = document.createElement('section');
-  const contDetailwrapper = document.createElement("div");
+  const contDetailwrapper = document.createElement('div');
   const heading = document.createElement('h1');
   const contList = document.createElement('ul');
   const contListItem1 = document.createElement('li');
